@@ -72,7 +72,7 @@ We choose React.js to handle so many states (music list, video feed, and several
 Tensorflow and their respective modules. This project contains additional features,such as the ability to track people who are using the app. The users can see who are the other users registered and follow them. All the models have been declared and clearly defined in python files. A project was developed using React, Django, and Tensorflow, and mp3 music was uploaded to the storage portion. These songs are organized by the mood in Django's real-time database section, and Tensorflow assists us in detecting moods by accurately classifying emotions. React.js was used to construct an adequate UI for the website, and the program was then tested to find any flaws.
 
 
-3.5. System Requirements
+System Requirements
 
 Hardware Requirements:
 
@@ -126,17 +126,6 @@ Tech stack:
 - Backend: Django, Django REST Framework (token auth)
 - ML: Keras / TensorFlow, OpenCV
 
-Project structure:
-
-amplify/
-├── frontend/
-│   ├── public/index.html
-│   └── src/            # App, MainApp, LoginForm, SignupForm, FriendsApp
-└── backend/
-    ├── manage.py
-    ├── api/            # models, views, upload_songs management command
-    └── amplifymodel/   # recog3.py (inference), train_model.py (CNN training)
-
 
 Setup:
 
@@ -157,6 +146,10 @@ Frontend
 cd frontend
 npm install
 npm start
+```
+
+
+
 
 The dataset used in Machine Learning is divided into three categories:
 
